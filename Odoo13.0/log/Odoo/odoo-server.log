@@ -1,0 +1,208 @@
+2021-02-13 18:48:51,894 10481 INFO ? odoo: Odoo version 13.0 
+2021-02-13 18:48:51,895 10481 INFO ? odoo: Using configuration file at /home/gerardo/Odoo13.0/odoo.conf 
+2021-02-13 18:48:51,895 10481 INFO ? odoo: addons paths: ['/home/gerardo/Odoo13.0/odoo/odoo/addons', '/home/gerardo/Odoo13.0/share/Odoo/filestore/addons/13.0', '/home/Odoo13.0/odoo/addons', '/home/Odoo13.0/extra-addons', '/home/gerardo/Odoo13.0/odoo'] 
+2021-02-13 18:48:51,895 10481 INFO ? odoo: database: gerardo@default:default 
+2021-02-13 18:48:51,895 10481 CRITICAL ? odoo.modules.module: Couldn't load module web 
+2021-02-13 18:48:51,896 10481 CRITICAL ? odoo.modules.module: No module named 'odoo.addons.web' 
+2021-02-13 18:48:51,896 10481 ERROR ? odoo.service.server: Failed to load server-wide module `web`.
+The `web` module is provided by the addons found in the `openerp-web` project.
+Maybe you forgot to add those addons in your addons_path configuration. 
+Traceback (most recent call last):
+  File "/home/gerardo/Odoo13.0/odoo/odoo/service/server.py", line 1138, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "/home/gerardo/Odoo13.0/odoo/odoo/modules/module.py", line 376, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+ModuleNotFoundError: No module named 'odoo.addons.web'
+2021-02-13 18:48:52,045 10481 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2021-02-13 18:48:52,117 10481 INFO ? odoo.service.server: HTTP service (werkzeug) running on auxdesarrollo:8069 
+2021-02-13 18:49:02,882 10481 INFO ? odoo.service.server: Initiating shutdown 
+2021-02-13 18:49:02,882 10481 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2021-02-13 18:53:05,481 10540 INFO ? odoo: Odoo version 13.0 
+2021-02-13 18:53:05,482 10540 INFO ? odoo: Using configuration file at /home/gerardo/Odoo13.0/odoo.conf 
+2021-02-13 18:53:05,482 10540 INFO ? odoo: addons paths: ['/home/gerardo/Odoo13.0/odoo/odoo/addons', '/home/gerardo/Odoo13.0/share/Odoo/filestore/addons/13.0', '/home/Odoo13.0/odoo/addons', '/home/Odoo13.0/extra-addons', '/home/gerardo/Odoo13.0/odoo'] 
+2021-02-13 18:53:05,482 10540 INFO ? odoo: database: gerardo@default:default 
+2021-02-13 18:53:05,626 10540 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2021-02-13 18:53:05,694 10540 CRITICAL ? odoo.modules.module: Couldn't load module web 
+2021-02-13 18:53:05,694 10540 CRITICAL ? odoo.modules.module: No module named 'odoo.addons.web' 
+2021-02-13 18:53:05,694 10540 ERROR ? odoo.service.server: Failed to load server-wide module `web`.
+The `web` module is provided by the addons found in the `openerp-web` project.
+Maybe you forgot to add those addons in your addons_path configuration. 
+Traceback (most recent call last):
+  File "/home/gerardo/Odoo13.0/odoo/odoo/service/server.py", line 1138, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "/home/gerardo/Odoo13.0/odoo/odoo/modules/module.py", line 376, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+ModuleNotFoundError: No module named 'odoo.addons.web'
+2021-02-13 18:53:05,702 10540 INFO ? odoo.service.server: HTTP service (werkzeug) running on auxdesarrollo:8069 
+2021-02-13 18:53:13,170 10540 INFO ? odoo.service.server: Initiating shutdown 
+2021-02-13 18:53:13,171 10540 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2021-02-13 18:55:25,609 10565 INFO ? odoo: Odoo version 13.0 
+2021-02-13 18:55:25,609 10565 INFO ? odoo: Using configuration file at /home/gerardo/Odoo13.0/odoo.conf 
+2021-02-13 18:55:25,609 10565 INFO ? odoo: addons paths: ['/home/gerardo/Odoo13.0/odoo/odoo/addons', '/home/gerardo/Odoo13.0/share/Odoo/filestore/addons/13.0', '/home/Odoo13.0/odoo/addons', '/home/Odoo13.0/extra-addons', '/home/gerardo/Odoo13.0/odoo'] 
+2021-02-13 18:55:25,609 10565 INFO ? odoo: database: gerardo@default:default 
+2021-02-13 18:55:26,500 10565 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2021-02-13 18:55:26,566 10565 CRITICAL ? odoo.modules.module: Couldn't load module web 
+2021-02-13 18:55:26,567 10565 CRITICAL ? odoo.modules.module: No module named 'odoo.addons.web' 
+2021-02-13 18:55:26,567 10565 ERROR ? odoo.service.server: Failed to load server-wide module `web`.
+The `web` module is provided by the addons found in the `openerp-web` project.
+Maybe you forgot to add those addons in your addons_path configuration. 
+Traceback (most recent call last):
+  File "/home/gerardo/Odoo13.0/odoo/odoo/service/server.py", line 1138, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "/home/gerardo/Odoo13.0/odoo/odoo/modules/module.py", line 376, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+ModuleNotFoundError: No module named 'odoo.addons.web'
+2021-02-13 18:55:26,577 10565 INFO ? odoo.service.server: HTTP service (werkzeug) running on auxdesarrollo:8069 
+2021-02-13 18:55:26,586 10565 INFO ? odoo.modules.loading: init db 
+2021-02-13 18:55:26,747 10565 ERROR ? odoo.sql_db: bad query: UPDATE ir_module_module SET state='installed' WHERE state IN ('to remove', 'to upgrade')
+ERROR: no existe la relación «ir_module_module»
+LINE 1: UPDATE ir_module_module SET state='installed' WHERE state IN...
+               ^
+ 
+2021-02-13 18:55:26,747 10565 ERROR ? odoo.modules.registry: Failed to load registry 
+Traceback (most recent call last):
+  File "/home/gerardo/Odoo13.0/odoo/odoo/modules/registry.py", line 86, in new
+    odoo.modules.load_modules(registry._db, force_demo, status, update_module)
+  File "/home/gerardo/Odoo13.0/odoo/odoo/modules/loading.py", line 338, in load_modules
+    odoo.modules.db.initialize(cr)
+  File "/home/gerardo/Odoo13.0/odoo/odoo/modules/db.py", line 34, in initialize
+    for i in odoo.modules.get_modules():
+  File "/home/gerardo/Odoo13.0/odoo/odoo/modules/module.py", line 416, in get_modules
+    plist.extend(listdir(ad))
+  File "/home/gerardo/Odoo13.0/odoo/odoo/modules/module.py", line 409, in listdir
+    for it in os.listdir(dir)
+FileNotFoundError: [Errno 2] No existe el archivo o el directorio: '/home/Odoo13.0/odoo/addons'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/gerardo/Odoo13.0/odoo/odoo/modules/registry.py", line 88, in new
+    odoo.modules.reset_modules_state(db_name)
+  File "/home/gerardo/Odoo13.0/odoo/odoo/modules/loading.py", line 558, in reset_modules_state
+    "UPDATE ir_module_module SET state='installed' WHERE state IN ('to remove', 'to upgrade')"
+  File "/home/gerardo/Odoo13.0/odoo/odoo/sql_db.py", line 173, in wrapper
+    return f(self, *args, **kwargs)
+  File "/home/gerardo/Odoo13.0/odoo/odoo/sql_db.py", line 250, in execute
+    res = self._obj.execute(query, params)
+psycopg2.errors.UndefinedTable: no existe la relación «ir_module_module»
+LINE 1: UPDATE ir_module_module SET state='installed' WHERE state IN...
+               ^
+
+2021-02-13 18:55:26,753 10565 CRITICAL ? odoo.service.server: Failed to initialize database `Acuario-Pruebas`. 
+Traceback (most recent call last):
+  File "/home/gerardo/Odoo13.0/odoo/odoo/modules/registry.py", line 86, in new
+    odoo.modules.load_modules(registry._db, force_demo, status, update_module)
+  File "/home/gerardo/Odoo13.0/odoo/odoo/modules/loading.py", line 338, in load_modules
+    odoo.modules.db.initialize(cr)
+  File "/home/gerardo/Odoo13.0/odoo/odoo/modules/db.py", line 34, in initialize
+    for i in odoo.modules.get_modules():
+  File "/home/gerardo/Odoo13.0/odoo/odoo/modules/module.py", line 416, in get_modules
+    plist.extend(listdir(ad))
+  File "/home/gerardo/Odoo13.0/odoo/odoo/modules/module.py", line 409, in listdir
+    for it in os.listdir(dir)
+FileNotFoundError: [Errno 2] No existe el archivo o el directorio: '/home/Odoo13.0/odoo/addons'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/gerardo/Odoo13.0/odoo/odoo/service/server.py", line 1190, in preload_registries
+    registry = Registry.new(dbname, update_module=update_module)
+  File "/home/gerardo/Odoo13.0/odoo/odoo/modules/registry.py", line 88, in new
+    odoo.modules.reset_modules_state(db_name)
+  File "/home/gerardo/Odoo13.0/odoo/odoo/modules/loading.py", line 558, in reset_modules_state
+    "UPDATE ir_module_module SET state='installed' WHERE state IN ('to remove', 'to upgrade')"
+  File "/home/gerardo/Odoo13.0/odoo/odoo/sql_db.py", line 173, in wrapper
+    return f(self, *args, **kwargs)
+  File "/home/gerardo/Odoo13.0/odoo/odoo/sql_db.py", line 250, in execute
+    res = self._obj.execute(query, params)
+psycopg2.errors.UndefinedTable: no existe la relación «ir_module_module»
+LINE 1: UPDATE ir_module_module SET state='installed' WHERE state IN...
+               ^
+
+2021-02-13 20:05:06,903 10565 INFO ? odoo.service.server: Initiating shutdown 
+2021-02-13 20:05:06,903 10565 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2021-02-16 01:25:02,731 11636 INFO ? odoo: Odoo version 13.0 
+2021-02-16 01:25:02,731 11636 INFO ? odoo: Using configuration file at /home/gerardo/Odoo13.0/odoo.conf 
+2021-02-16 01:25:02,731 11636 INFO ? odoo: addons paths: ['/home/gerardo/Odoo13.0/odoo/odoo/addons', '/home/gerardo/Odoo13.0/share/Odoo/filestore/addons/13.0', '/home/Odoo13.0/odoo/addons', '/home/Odoo13.0/extra-addons', '/home/gerardo/Odoo13.0/odoo'] 
+2021-02-16 01:25:02,732 11636 INFO ? odoo: database: gerardo@default:default 
+2021-02-16 01:25:02,877 11636 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2021-02-16 01:25:02,944 11636 CRITICAL ? odoo.modules.module: Couldn't load module web 
+2021-02-16 01:25:02,944 11636 CRITICAL ? odoo.modules.module: No module named 'odoo.addons.web' 
+2021-02-16 01:25:02,944 11636 ERROR ? odoo.service.server: Failed to load server-wide module `web`.
+The `web` module is provided by the addons found in the `openerp-web` project.
+Maybe you forgot to add those addons in your addons_path configuration. 
+Traceback (most recent call last):
+  File "/home/gerardo/Odoo13.0/odoo/odoo/service/server.py", line 1138, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "/home/gerardo/Odoo13.0/odoo/odoo/modules/module.py", line 376, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+ModuleNotFoundError: No module named 'odoo.addons.web'
+2021-02-16 01:25:02,951 11636 INFO ? odoo.service.server: HTTP service (werkzeug) running on auxdesarrollo:8069 
+2021-02-16 01:30:21,842 11636 INFO ? odoo.service.server: Initiating shutdown 
+2021-02-16 01:30:21,842 11636 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2021-02-16 04:57:27,093 12147 INFO ? odoo: Odoo version 13.0 
+2021-02-16 04:57:27,094 12147 INFO ? odoo: Using configuration file at /home/gerardo/Odoo13.0/odoo.conf 
+2021-02-16 04:57:27,094 12147 INFO ? odoo: addons paths: ['/home/gerardo/Odoo13.0/odoo/odoo/addons', '/home/gerardo/Odoo13.0/share/Odoo/filestore/addons/13.0', '/home/Odoo13.0/odoo/addons', '/home/Odoo13.0/extra-addons', '/home/gerardo/Odoo13.0/odoo'] 
+2021-02-16 04:57:27,094 12147 INFO ? odoo: database: gerardo@default:default 
+2021-02-16 04:57:27,095 12147 CRITICAL ? odoo.modules.module: Couldn't load module web 
+2021-02-16 04:57:27,095 12147 CRITICAL ? odoo.modules.module: No module named 'odoo.addons.web' 
+2021-02-16 04:57:27,095 12147 ERROR ? odoo.service.server: Failed to load server-wide module `web`.
+The `web` module is provided by the addons found in the `openerp-web` project.
+Maybe you forgot to add those addons in your addons_path configuration. 
+Traceback (most recent call last):
+  File "/home/gerardo/Odoo13.0/odoo/odoo/service/server.py", line 1138, in load_server_wide_modules
+    odoo.modules.module.load_openerp_module(m)
+  File "/home/gerardo/Odoo13.0/odoo/odoo/modules/module.py", line 376, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+ModuleNotFoundError: No module named 'odoo.addons.web'
+2021-02-16 04:57:27,248 12147 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2021-02-16 04:57:27,325 12147 INFO ? odoo.service.server: HTTP service (werkzeug) running on auxdesarrollo:8069 
+2021-02-16 04:58:28,380 12147 ERROR Acuario-Pruebas odoo.modules.loading: Database Acuario-Pruebas not initialized, you can force it with `-i base` 
+2021-02-16 04:58:28,381 12147 INFO Acuario-Pruebas werkzeug: 127.0.0.1 - - [16/Feb/2021 04:58:28] "GET /web HTTP/1.1" 500 - 6 0.026 0.011
+2021-02-16 04:58:28,386 12147 ERROR Acuario-Pruebas odoo.sql_db: bad query: SELECT latest_version FROM ir_module_module WHERE name='base'
+ERROR: no existe la relación «ir_module_module»
+LINE 1: SELECT latest_version FROM ir_module_module WHERE name='base...
+                                   ^
+ 
+2021-02-16 04:58:28,386 12147 WARNING ? odoo.addons.base.models.ir_cron: Tried to poll an undefined table on database Acuario-Pruebas. 
+2021-02-16 04:58:28,388 12147 ERROR Acuario-Pruebas werkzeug: Error on request:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/werkzeug/serving.py", line 270, in run_wsgi
+    execute(self.server.app)
+  File "/usr/local/lib/python3.6/dist-packages/werkzeug/serving.py", line 258, in execute
+    application_iter = app(environ, start_response)
+  File "/home/gerardo/Odoo13.0/odoo/odoo/service/server.py", line 439, in app
+    return self.app(e, s)
+  File "/home/gerardo/Odoo13.0/odoo/odoo/service/wsgi_server.py", line 142, in application
+    return application_unproxied(environ, start_response)
+  File "/home/gerardo/Odoo13.0/odoo/odoo/service/wsgi_server.py", line 117, in application_unproxied
+    result = odoo.http.root(environ, start_response)
+  File "/home/gerardo/Odoo13.0/odoo/odoo/http.py", line 1287, in __call__
+    return self.dispatch(environ, start_response)
+  File "/home/gerardo/Odoo13.0/odoo/odoo/http.py", line 1441, in dispatch
+    ir_http = request.registry['ir.http']
+  File "/home/gerardo/Odoo13.0/odoo/odoo/modules/registry.py", line 177, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http' - - -
+2021-02-16 04:58:28,454 12147 INFO Acuario-Pruebas werkzeug: 127.0.0.1 - - [16/Feb/2021 04:58:28] "GET /favicon.ico HTTP/1.1" 500 - 2 0.001 0.004
+2021-02-16 04:58:28,456 12147 ERROR Acuario-Pruebas werkzeug: Error on request:
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/dist-packages/werkzeug/serving.py", line 270, in run_wsgi
+    execute(self.server.app)
+  File "/usr/local/lib/python3.6/dist-packages/werkzeug/serving.py", line 258, in execute
+    application_iter = app(environ, start_response)
+  File "/home/gerardo/Odoo13.0/odoo/odoo/service/server.py", line 439, in app
+    return self.app(e, s)
+  File "/home/gerardo/Odoo13.0/odoo/odoo/service/wsgi_server.py", line 142, in application
+    return application_unproxied(environ, start_response)
+  File "/home/gerardo/Odoo13.0/odoo/odoo/service/wsgi_server.py", line 117, in application_unproxied
+    result = odoo.http.root(environ, start_response)
+  File "/home/gerardo/Odoo13.0/odoo/odoo/http.py", line 1287, in __call__
+    return self.dispatch(environ, start_response)
+  File "/home/gerardo/Odoo13.0/odoo/odoo/http.py", line 1441, in dispatch
+    ir_http = request.registry['ir.http']
+  File "/home/gerardo/Odoo13.0/odoo/odoo/modules/registry.py", line 177, in __getitem__
+    return self.models[model_name]
+KeyError: 'ir.http' - - -
+2021-02-16 04:58:38,052 12147 INFO ? odoo.service.server: Initiating shutdown 
+2021-02-16 04:58:38,052 12147 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
